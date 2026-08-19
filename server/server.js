@@ -13,7 +13,7 @@ const storage = multer.memoryStorage();
 const upload = multer({ storage });
 
 app.use(cors({
-    origin: "http://localhost:5000", // Replace with the URL of your React app
+    origin: "http://localhost:5001", // Replace with the URL of your React app
     credentials: true, // Enable cookies and session sharing
 }));
 
